@@ -75,7 +75,7 @@ elif [[ "${release}" == "amzn" ]]; then
     fi
 elif [[ "${release}" == "debian" ]]; then
     if [[ ${os_version} -lt 11 ]]; then
-        echo -e "${red} Please use Debian 11 or higher ${plain}\n" && exit 1
+        echo -e "${red} Please use Debian 11 or higher ${plain}\n" 
     fi
 elif [[ "${release}" == "almalinux" ]]; then
     if [[ ${os_version} -lt 80 ]]; then
